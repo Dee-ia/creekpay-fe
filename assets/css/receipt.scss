@@ -1,0 +1,858 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.box{
+    background-color: #ffffff;
+    width: 300px;
+    height: 316px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    position: relative;
+
+    .heading{
+        img{
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+    }
+
+    .invoice{
+        width: 115px;
+        height: 35px;
+        margin-left: 90px;
+        margin-top: 30px;
+        color: #2f7fb9;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .rivers{
+        position: absolute;
+        width: 160px;
+        height: 22px;
+        margin-left: 25px;
+        margin-top: 15px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #2F7FB9;
+    }
+
+    .line3{
+        position: absolute;
+        width: 104px;
+        height: 14px;
+        margin-left: 25px;
+        margin-top: 40px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #000000;
+
+        .no{
+            position: absolute;
+            width: 19px;
+            height: 14px;
+            margin-left: 80px;
+            margin-top: 0px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+
+        .reg{
+            position: absolute;
+            width: 29px;
+            height: 12px;
+            margin-left: 140px;
+            margin-top: 0px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+
+        img{
+            position: absolute;
+            width: 95px;
+            height: 0px;
+            margin-left: 105px;
+            margin-top: 10px;
+
+            border: 1px solid #0C8087;
+            transform: rotate(0.86deg);
+        }
+    }
+
+    .line4{
+        position: absolute;
+        width: 104px;
+        height: 14px;
+        margin-left: 25px;
+        margin-top: 60px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #000000;
+
+        .date{
+            position: absolute;
+            width: 19px;
+            height: 14px;
+            margin-left: 95px;
+            margin-top: 0px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+
+        .reg{
+            position: absolute;
+            width: 29px;
+            height: 12px;
+            margin-left: 145px;
+            margin-top: 0px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+
+        img{
+            position: absolute;
+            width: 90px;
+            height: 0;
+            margin-left: 125px;
+            margin-top: 10px;
+
+            border: 1px solid #0C8087;
+            transform: rotate(0.86deg);
+        }
+    }
+
+    .rectangle5{
+        position: absolute;
+        width: 260px;
+        height: 20px;
+        left: 25px;
+        top: 151px;
+
+        background: rgba(109, 167, 180, 0.2);
+        border: 1px solid rgba(12, 128, 135, 0.31);
+        // box-sizing: border-box;
+
+        .receive-by{
+            position: absolute;
+            // width: 40px;
+            // height: 12px;
+            margin-left: 10px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: rgba(0, 0, 0, 0.57);
+
+        }
+
+        .doug{
+            position: absolute;
+            // width: 63px;
+            height: 12px;
+            margin-left: 95px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+    }
+
+    .rectangle6{
+        position: absolute;
+        width: 260px;
+        height: 20px;
+        left: 25px;
+        margin-top: 111px;
+
+        background: rgba(109, 167, 180, 0.2);
+        border: 1px solid rgba(12, 128, 135, 0.31);
+        // box-sizing: border-box;
+
+        .purpose{
+            position: absolute;
+            // width: 40px;
+            height: 12px;
+            margin-left: 10px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: rgba(0, 0, 0, 0.57);
+
+        }
+
+        .co-work{
+            position: absolute;
+            // width: 63px;
+            height: 12px;
+            margin-left: 95px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+    }
+
+    .rectangle9{
+        position: absolute;
+        width: 260px;
+        height: 20px;
+        left: 25px;
+        margin-top: 141px;
+
+        background: rgba(109, 167, 180, 0.2);
+        border: 1px solid rgba(12, 128, 135, 0.31);
+        // box-sizing: border-box;
+
+        .payment{
+            position: absolute;
+            // width: 40px;
+            height: 12px;
+            margin-left: 10px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: rgba(0, 0, 0, 0.57);
+
+        }
+
+        .pay{
+            position: absolute;
+            // width: 63px;
+            height: 12px;
+            margin-left: 200px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+    }
+
+    .rectangle7{
+        position: absolute;
+        width: 260px;
+        height: 20px;
+        left: 25px;
+        margin-top: 171px;
+
+        background: rgba(109, 167, 180, 0.2);
+        border: 1px solid rgba(12, 128, 135, 0.31);
+        // box-sizing: border-box;
+
+        .services{
+            position: absolute;
+            // width: 40px;
+            height: 12px;
+            margin-left: 10px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: rgba(0, 0, 0, 0.57);
+
+        }
+
+        .service-pay{
+            position: absolute;
+            // width: 63px;
+            height: 12px;
+            margin-left: 200px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+
+    }
+
+    .rectangle8{
+        position: absolute;
+        width: 135px;
+        height: 20px;
+        left: 150px;
+        margin-top: 201px;
+
+        background: rgba(109, 167, 180, 0.2);
+        border: 1px solid rgba(12, 128, 135, 0.31);
+        // box-sizing: border-box;
+
+        .total{
+            position: absolute;
+            // width: 40px;
+            height: 12px;
+            margin-left: 10px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: rgba(0, 0, 0, 0.57);
+
+        }
+
+        .total-pay{
+            position: absolute;
+            // width: 63px;
+            height: 12px;
+            margin-left: 75px;
+            margin-top: 5px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 10px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+
+    }
+      
+}
+
+@media screen and (min-width: 768px){
+
+    .box{
+        background-color: #ffffff;
+        width: 595px;
+        height: 316px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+
+        .heading{
+            img{
+                margin-top: 25px;
+                margin-left: 25px;
+            }
+        }
+    
+        .invoice{
+            width: 115px;
+            height: 35px;
+            margin-left: 360px;
+            margin-top: 30px;
+            color: #2f7fb9;
+    
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 35px;
+        }
+    
+        .rivers{
+            position: absolute;
+            width: 160px;
+            height: 22px;
+            margin-left: 25px;
+            margin-top: 15px;
+    
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 18px;
+    
+            color: #2F7FB9;
+        }
+    
+        .line3{
+            position: absolute;
+            width: 104px;
+            height: 14px;
+            margin-left: 25px;
+            margin-top: 45px;
+    
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 12px;
+    
+            color: #000000;
+    
+            .no{
+                position: absolute;
+                width: 19px;
+                height: 14px;
+                margin-left: 270px;
+                margin-top: 0px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 14px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+            }
+    
+            .reg{
+                position: absolute;
+                width: 29px;
+                height: 12px;
+                margin-left: 350px;
+                margin-top: 0px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 12px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+            }
+    
+            img{
+                position: absolute;
+                width: 150px;
+                height: 0px;
+                margin-left: 290px;
+                margin-top: 10px;
+    
+                border: 1px solid #0C8087;
+                transform: rotate(0.86deg);
+            }
+        }
+    
+        .line4{
+            position: absolute;
+            width: 104px;
+            height: 14px;
+            margin-left: 25px;
+            margin-top: 65px;
+    
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 12px;
+    
+            color: #000000;
+    
+            .date{
+                position: absolute;
+                width: 19px;
+                height: 14px;
+                margin-left: 290px;
+                margin-top: 3px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 14px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+            }
+    
+            .reg{
+                position: absolute;
+                width: 29px;
+                height: 12px;
+                margin-left: 360px;
+                margin-top: 3px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 12px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+            }
+    
+            img{
+                position: absolute;
+                width: 142px;                                                                                                                                                                                                                                                                                                                                                    
+                height: 0px;
+                margin-left: 320px;
+                margin-top: 13px;
+    
+                border: 1px solid #0C8087;
+                transform: rotate(0.86deg);
+            }
+        }
+    
+        .rectangle5{
+            position: absolute;
+            width: 530px;
+            height: 20px;
+            left: 25px;
+            top: 161px;
+    
+            background: rgba(109, 167, 180, 0.2);
+            border: 1px solid rgba(12, 128, 135, 0.31);
+            // box-sizing: border-box;
+    
+            .receive-by{
+                position: absolute;
+                // width: 40px;
+                // height: 12px;
+                margin-left: 10px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: rgba(0, 0, 0, 0.57);
+    
+            }
+    
+            .doug{
+                position: absolute;
+                // width: 63px;
+                height: 12px;
+                margin-left: 205px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+    
+            }
+        }
+    
+        .rectangle6{
+            position: absolute;
+            width: 530px;
+            height: 20px;
+            left: 25px;
+            margin-top: 121px;
+    
+            background: rgba(109, 167, 180, 0.2);
+            border: 1px solid rgba(12, 128, 135, 0.31);
+            // box-sizing: border-box;
+    
+            .purpose{
+                position: absolute;
+                width: 40px;
+                height: 12px;
+                margin-left: 10px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: rgba(0, 0, 0, 0.57);
+    
+            }
+    
+            .co-work{
+                position: absolute;
+                // width: 63px;
+                height: 12px;
+                margin-left: 205px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+    
+            }
+        }
+    
+        .rectangle9{
+            position: absolute;
+            width: 530px;
+            height: 20px;
+            left: 25px;
+            margin-top: 151px;
+    
+            background: rgba(109, 167, 180, 0.2);
+            border: 1px solid rgba(12, 128, 135, 0.31);
+            // box-sizing: border-box;
+    
+            .payment{
+                position: absolute;
+                // width: 40px;
+                height: 12px;
+                margin-left: 10px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: rgba(0, 0, 0, 0.57);
+    
+            }
+    
+            .pay{
+                position: absolute;
+                // width: 63px;
+                height: 12px;
+                margin-left: 450px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+    
+            }
+        }
+    
+        .rectangle7{
+            position: absolute;
+            width: 530px;
+            height: 20px;
+            left: 25px;
+            margin-top: 181px;
+    
+            background: rgba(109, 167, 180, 0.2);
+            border: 1px solid rgba(12, 128, 135, 0.31);
+            // box-sizing: border-box;
+    
+            .services{
+                position: absolute;
+                // width: 40px;
+                height: 12px;
+                margin-left: 10px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: rgba(0, 0, 0, 0.57);
+    
+            }
+    
+            .service-pay{
+                position: absolute;
+                // width: 63px;
+                height: 12px;
+                margin-left: 450px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+    
+            }
+    
+        }
+    
+        .rectangle8{
+            position: absolute;
+            width: 405px;
+            height: 20px;
+            left: 150px;
+            margin-top: 211px;
+    
+            background: rgba(109, 167, 180, 0.2);
+            border: 1px solid rgba(12, 128, 135, 0.31);
+            // box-sizing: border-box;
+    
+            .total{
+                position: absolute;
+                // width: 40px;
+                height: 12px;
+                margin-left: 10px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: rgba(0, 0, 0, 0.57);
+    
+            }
+    
+            .total-pay{
+                position: absolute;
+                // width: 63px;
+                height: 12px;
+                margin-left: 325px;
+                margin-top: 5px;
+    
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                /* identical to box height */
+    
+    
+                color: #000000;
+    
+            }
+    
+        }
+        
+    }
+}
